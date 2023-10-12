@@ -45,5 +45,21 @@ for(int index = 0; index < set3.length; index++){
 print(set2.union(set3));        // combine both set
 print(set2.intersection(set2));  // common values in both set
 print(set2.difference(set3));    // values present in set2 and not present
+
+
+///map - store values as key-value pairs keys must be unique values can be some or different
+///map<key,value>
+ Map<String,dynamic> map1  ={'name' : 'anoop', 'age' :20, 'mark':9.1,'phone':956255525};
+ map1.addAll({'email':'anoop@gmail.com'});
+ map1['pincode'] = 686535;
+ print(map1);
+ map1['age']=32;
+ print(map1);
+ map1.forEach((Key,value){
+   print('$Key:$value');
+});
+ print(map1.containsKey('hello'));
+ print(map1.containsValue(32));
 }
+
 
