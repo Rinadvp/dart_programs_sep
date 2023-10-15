@@ -3,7 +3,7 @@ class MyData {
   int?_age =22;
   double?_mark =0.00;
 
-  set value_of_name(String name) {
+  set Value_of_name(String name) {
     _name = name;
   }
 
@@ -19,7 +19,7 @@ class MyData {
     return _age!;
   }
 
-  set value_of_mark(double mark) {
+  set value_of_mark(double mark) {  
     _mark = mark;
   }
 
